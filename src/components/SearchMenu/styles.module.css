@@ -1,0 +1,18 @@
+.searchMenu {
+    background-color: #FFFFFF;
+    min-width: 408px;
+    max-height: 862px;
+    border-radius: 8px;
+    padding: 24px;
+    position: sticky;
+    top: 108px;
+}
+.searchMenu__title {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #1B1F23;
+}

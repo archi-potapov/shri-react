@@ -1,0 +1,8 @@
+.main__wrapper {
+    padding: 24px 32px 24px 32px;
+    display: flex;
+    justify-content: stretch;
+    gap: 23px;
+    width: 100%;
+    position: relative;
+}

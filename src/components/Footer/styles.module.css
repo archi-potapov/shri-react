@@ -1,0 +1,23 @@
+.footer {
+    min-height: 86px;
+    height: 86px;
+    background-color: #333333;
+
+    flex: none;
+}
+.footer__link {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+.footer__wrapper {
+    height: inherit;
+    margin: 0 32px 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

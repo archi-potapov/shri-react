@@ -1,0 +1,15 @@
+.movieSectionWrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.movieCommentsWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.moviePageWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

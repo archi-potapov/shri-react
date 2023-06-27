@@ -1,0 +1,96 @@
+.backgroundWrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.removePanel {
+    padding: 24px;
+    width: 344px;
+    height: 168px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.modalHeader {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #1B1F23;
+}
+.modalQuestion {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #1B1F23;
+
+}
+.acceptButton {
+    width: 51px;
+    height: 40px;
+
+    background: #FF5500;
+    border-radius: 8px;
+    border: 0;
+}
+.declineButton {
+    width: 57px;
+    height: 40px;
+
+    border: 1px solid #FF5500;
+    border-radius: 8px;
+}
+.acceptButtonText {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    pointer-events: none;
+}
+.declineButtonText {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FF5500;
+    pointer-events: none;
+}
+.closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    border-radius: 0;
+    height: 13px;
+    width: 13px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-image: url("../../../public/removeButton.svg");
+}
+.modalText {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.actionButtons {
+    display: flex;
+    gap: 8px;
+}
