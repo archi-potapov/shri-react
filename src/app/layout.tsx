@@ -8,7 +8,6 @@ import {Main} from "@/components/Main/Main";
 import React from "react";
 import {createStore} from "redux";
 import {Provider} from "react-redux";
-import {RemoveModal} from "@/components/RemoveModal/RemoveModal";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +15,7 @@ export const metadata = {
   title: 'Билетопоиск',
   description: 'Найдите билет на свой фильм',
 }
+
 let defaultState = {
     totalCount: 0,
     movies: {},
@@ -51,6 +51,7 @@ let defaultState = {
         return this;
     }
 }
+
 const reducer = (state = defaultState, action) => {
     switch (action.type) {
         case "ADD":

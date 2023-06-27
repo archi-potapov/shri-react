@@ -3,6 +3,7 @@
 import styles from "./styles.module.css"
 import {useSelector} from "react-redux";
 import {MovieCard} from "@/components/MovieCard/MovieCard";
+
 export default function Page () {
 
     const state = useSelector(state => state)
@@ -11,11 +12,12 @@ export default function Page () {
 
     let moviesArray = filteredDataArray.map(x =>
         <MovieCard
-        posterUrl={x[1][4]}
-        title={x[1][1]}
-        genre={x[1][3]}
-        id={x[0]}
-        canRemoveAll={true}
+            key={x[0]}
+            posterUrl={x[1][4]}
+            title={x[1][1]}
+            genre={x[1][3]}
+            id={x[0]}
+            canRemoveAll={true}
     />)
 
     return (

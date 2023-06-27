@@ -5,7 +5,7 @@
 
     flex: none;
 }
-.footer__link {
+.footerLink {
     font-family: 'Roboto', serif;
     font-style: normal;
     font-weight: 400;
@@ -14,7 +14,7 @@
 
     color: #FFFFFF;
 }
-.footer__wrapper {
+.footerWrapper {
     height: inherit;
     margin: 0 32px 0 32px;
     display: flex;

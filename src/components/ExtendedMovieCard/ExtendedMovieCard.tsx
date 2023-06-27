@@ -4,6 +4,7 @@ import styles from "./styles.module.css"
 import {FunctionComponent} from "react";
 import {FilmDetails} from "@/components/FilmDetails/FilmDetails";
 import Link from "next/link";
+
 interface Props {
     posterUrl: string;
     title: string;
@@ -12,7 +13,7 @@ interface Props {
 }
 
 export const ExtendedMovieCard: FunctionComponent<Props> = ({posterUrl, title, genre, id, description, director, rating, releaseYear}) => {
-    let removeButton = <></>;
+
     return (
         <div className={styles.movieCard}>
             <Link href={`/movie/${id}`} className={styles.posterWrapper}>

@@ -1,6 +1,5 @@
 import styles from "./styles.module.css"
 import {FunctionComponent} from "react";
-import UndefinedIcon from "../../../public/undefinedIcon.svg"
 
 interface Props {
     name: string;

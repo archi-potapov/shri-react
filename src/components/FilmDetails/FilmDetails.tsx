@@ -7,6 +7,7 @@ import styles from "./styles.module.css";
 import {useDispatch, useSelector} from "react-redux";
 import {RemoveModal} from "@/components/RemoveModal/RemoveModal";
 import {createPortal} from "react-dom";
+
 export interface Props {
     title: string;
     genre: string;
@@ -15,6 +16,7 @@ export interface Props {
     additionalOptions: AdditionalOptions;
     canRemoveAll: boolean;
 }
+
 export interface AdditionalOptions {
     description: string;
     director: string;
@@ -64,6 +66,7 @@ export const FilmDetails: FunctionComponent<Props> = ({
 }
 
 function renameGenreFromEnToRu (genre: string): string {
+
     let result = "";
 
     switch (genre) {

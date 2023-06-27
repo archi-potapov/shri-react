@@ -2,6 +2,7 @@ import {FunctionComponent} from "react";
 import styles from "./styles.module.css";
 import Link from "next/link";
 import {AdditionalOptions} from "@/components/FilmDetails/FilmDetails";
+
 interface Props {
     title: string;
     genre: string;

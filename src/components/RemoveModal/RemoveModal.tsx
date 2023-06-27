@@ -2,6 +2,7 @@
 
 import styles from "./styles.module.css"
 import {FunctionComponent, useState} from "react";
+
 interface Props {
     acceptFunction: () => void;
     declineFunction: () => void;
@@ -14,7 +15,6 @@ export const RemoveModal: FunctionComponent<Props> = ({acceptFunction, declineFu
 
         if (event.target == event.currentTarget) {
             acceptFunction();
-            console.log("Accept")
         }
     }
     const onDecline = (event) => {
@@ -22,7 +22,6 @@ export const RemoveModal: FunctionComponent<Props> = ({acceptFunction, declineFu
 
         if (event.target == event.currentTarget) {
             declineFunction();
-            console.log("Decline")
         }
     }
 

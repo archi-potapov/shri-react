@@ -15,7 +15,6 @@ export const QuestionCard: FunctionComponent<Props> = ({question, answer}) => {
     const showButton = <button onClick={onClickShowButton} className={`${styles.showButton} ${!isOpen ? styles.showButton_disabled : ""}`}></button>;
 
     function onClickShowButton () {
-        console.log(showButton.props.className);
         setIsOpen(!isOpen);
     }
 

@@ -5,7 +5,7 @@ export const Main = function({children}: {
     children: React.ReactNode
 }) {
     return (
-        <main className={styles.main__wrapper}>
+        <main className={styles.mainWrapper}>
             {children}
         </main>
     )
